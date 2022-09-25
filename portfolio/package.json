@@ -2,12 +2,19 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "description": "",
+  "main": "package.json",
+  "author": "Varun Gupta <varun.gupta9998@gmail.com>",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "keywords": [
+    "sanity"
+  ],
   "dependencies": {
     "@sanity/cli": "^2.33.3",
     "@sanity/image-url": "^1.0.1",
@@ -15,7 +22,17 @@
     "next-sanity": "^0.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.55.0"
+    "sass": "^1.55.0",
+    "@sanity/base": "^2.33.3",
+    "@sanity/core": "^2.33.3",
+    "@sanity/default-layout": "^2.33.3",
+    "@sanity/default-login": "^2.33.3",
+    "@sanity/desk-tool": "^2.33.3",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/vision": "^2.33.3",
+    "eslint": "^8.6.0",
+    "prop-types": "^15.7",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "@types/node": "18.7.20",
