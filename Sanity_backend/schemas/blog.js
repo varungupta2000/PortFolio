@@ -42,6 +42,11 @@ export default {
       title: 'Meta Description',
     },
     {
+      title: 'Image',
+      name: 'image',
+      type: 'image',
+    },
+    {
       title: 'Created At',
       name: 'createdAt',
       type: 'datetime',
