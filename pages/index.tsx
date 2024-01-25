@@ -22,9 +22,9 @@ export default function Home() {
       <Head>
         <title>
           PortFolio | Varun Gupta</title>
-        <link
+        {/* <link
           href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-          rel="stylesheet" />
+          rel="stylesheet" /> */}
 
         <link
           crossOrigin="anonymous"
@@ -56,7 +56,6 @@ export default function Home() {
               </h1>
               <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
                 <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
-                  <p className="font-body text-lg uppercase text-white">Let's connect</p>
                   <div className="hidden sm:block">
                     <i className="bx bx-chevron-right text-3xl text-yellow"></i>
                   </div>
@@ -107,9 +106,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
               <div className="flex items-center justify-center sm:justify-start">
-                <p className="font-body text-lg font-semibold uppercase text-grey-20">
-                  Connect with me
-                </p>
+                
                 <div className="hidden sm:block">
                   <i className="bx bx-chevron-right text-2xl text-primary"></i>
                 </div>
@@ -305,6 +302,12 @@ export default function Home() {
               <span className="m-8 block">
                 <img src="/assets1/molygrpah.png" alt="client logo" className="mx-auto block h-16 w-auto" />
               </span>
+              <span className="m-8 block">
+                <img src="/assets1/yume.png" alt="client logo" className="mx-auto block h-16 w-auto" />
+              </span>
+              <span className="m-8 block">
+                <img src="/assets1/auro.png" alt="client logo" className="mx-auto block h-16 w-auto" />
+              </span>
             </div>
           </div>
         </div>
@@ -344,19 +347,15 @@ export default function Home() {
                     <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">SDE-1 Frontend
                       Developer</span>
                     <ul className="font-body text-black">
-                      <li>1. Worked on the UI of ApnaAscend Placement Program using nextJs,SCSS,typeScript,Tailwind <a href="https://ascend.apna.co/" className='font-bold'>(https://ascend.apna.co/)</a></li>
-                      <li className="font-bold">Responsibilites:</li>
-                      <li>a. Creating Components like Landing Page Hero Section,Footer, Success Stories etc.</li>
-                      <li>b. Handling the BugFixing of All the Components.</li>
+                      <li>1. Worked on the UI of ApnaAscend Placement Program using nextJs,SCSS,typeScript,Tailwind</li>
                       <br />
-                      <li>2. Worked on the UI Revamp of MolyGraph Lubricants using nextJs,SCSS,typeScript. <a href="https://v2.molygraph.com/" className='font-bold'>(https://v2.molygraph.com/)</a></li>
-
-                      <li className="font-bold"> Responsibility:</li>
-                      <li>a. Make atomic components aa well as assemble them to make different pages.</li>
-
-                      <li>b. Make the Website SEO friendly by adding all the necessary tags for SEO</li>
+                      <li>2. Worked on the UI Revamp of MolyGraph Lubricants using nextJs,SCSS,typeScript. <a href="https://www.molygraph.com/" className='font-bold' target='_blank'>(https://www.molygraph.com/)</a></li>
                       <br />
-                      3. Created an CAD-type software API, oriented to drawing and modelling in 2D, it allows the creation and modification of geometric models, callouts, points-snapping and themes on HTML canvas.
+                      <li>3. Created an CAD-type software API, oriented to drawing and modelling in 2D, it allows the creation and modification of geometric models, callouts, points-snapping and themes on HTML canvas.</li>
+                      <br />
+                      <li>4. Developed a website for a team that provides their clients with UI/UX design <a href="https://donor.auroscholar.com/" className='font-bold' target='_blank'>(https://donor.auroscholar.com/)</a></li>
+                      <br />
+                      <li>5. Developed a website to provide under-privileged students with study materials from different teachers across the   country and scholarships are given to students using donor money <a href="https://yumelabs.com/" className='font-bold' target='_blank'>(https://yumelabs.com/)</a></li>
                     </ul>
                   </div>
                 </div>
@@ -408,7 +407,7 @@ export default function Home() {
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
                   <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                    2
+                    4
                   </h1>
                   <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                     Finished Projects
@@ -424,7 +423,7 @@ export default function Home() {
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
                   <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                    3
+                    5
                   </h1>
                   <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                     Happy Clients
@@ -439,7 +438,7 @@ export default function Home() {
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
                   <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                    50+
+                    150+
                   </h1>
                   <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                     Bugs Fixed
