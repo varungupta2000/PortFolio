@@ -21,7 +21,7 @@ const Home = () => (
           media="screen"
           rel="stylesheet" />
         <meta property="og:title" content="Varun Gupta Portfolio" />
-        <meta property="og:url" content="https://guptav arun.in" />
+        <meta property="og:url" content="https://guptavarun.in" />
         <link rel="canonical" href="https://guptavarun.in" />
         <meta name="description" content=".I'm Varun Gupta, specializing in UI development with Next.js, SCSS, TypeScript, and Tailwind. Proficient in HTML, CSS, React, Next.JS, typeScript and more, with hands-on experience in desktop and web app projects. Committed to continuous learning and problem-solving.
 " />
