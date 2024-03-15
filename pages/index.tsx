@@ -45,7 +45,7 @@ const Home = () => (
               />
             </div>
             <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
-              <h1 className="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
+              <h1 className="text-center font-header text-4xl text-white font-black sm:text-left sm:text-5xl md:text-6xl">
                 Hello I'm Varun Gupta
               </h1>
               <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
@@ -74,10 +74,10 @@ const Home = () => (
       <div className="bg-grey-50" id="about">
         <div className="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
           <div className="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
-            <h2 className="font-header text-4xl font-semibold uppercase text-sky-700 sm:text-5xl lg:text-6xl">
+            <h2 className="font-header text-4xl font-black uppercase text-sky-700 sm:text-5xl lg:text-6xl">
               Who am I?
             </h2>
-            <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+            <h4 className="pt-6 font-header text-xl font-semibold text-black sm:text-2xl lg:text-3xl">
               I'm Varun Gupta, a Software Engineer
             </h4>
             <p className="pt-6 font-body leading-relaxed text-grey-20">
@@ -431,7 +431,7 @@ const Home = () => (
               <div
                 className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
                 <div>
-                  <img src="/assets1/code.png" className="mx-auto h-12 w-auto md:h-24" alt="icon puzzle" />
+                  <img src="/assets1/code.svg" className="mx-auto h-12 w-auto md:h-24" alt="icon puzzle" />
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
                   <h1 className="font-body text-2xl font-bold text-sky-700 md:text-4xl">
@@ -452,7 +452,7 @@ const Home = () => (
             Here's my Resume
           </h2>
           <span className='flex items-center justify-center'>
-            <a href="/assets1/resume.pdf" download="Varun Gupta-Resume" className='uppercase bg-sky-700 text-white p-4 rounded-full hover:bg-grey-20 active:bg-slate-900'>
+            <a href="/assets1/resume.pdf" download="Varun Gupta-Resume" className='uppercase bg-sky-700 text-white p-4 rounded-full hover:bg-sky-300 active:bg-sky-900'>
               Download Resume
             </a>
           </span>
