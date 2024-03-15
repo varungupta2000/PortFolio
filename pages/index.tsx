@@ -9,33 +9,27 @@ import { createClient } from "next-sanity";
 import Script from "next/script"
 import NavBar from '../component/index';
 
-
-
-export default function Home() {
-
-  const submit = () => {
-    alert("Submitted the form Successfully!!!")
-  }
-  return (
-    <><>
+const Home = () => (
+  <>
+    <>
       <Script src="/assets/js/main.js"></Script>
       <Head>
-        <title>
-          PortFolio | Varun Gupta</title>
-        {/* <link
-          href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-          rel="stylesheet" /> */}
-
+        <title>PortFolio | Varun Gupta</title>
         <link
           crossOrigin="anonymous"
           href="/assets/styles/main.min.css"
           media="screen"
           rel="stylesheet" />
-
+        <meta property="og:title" content="Varun Gupta Portfolio" />
+        <meta property="og:url" content="https://varun-gupta-portfolio.netlify.app/" />
+        <link rel="canonical" href="https://varun-gupta-portfolio.netlify.app/" />
+        <meta name="description" content="This side Varun Gupta. Front-End Develope ... I am Varun Gupta. Currently in love with web development ... Personal portfolio page for a web developer.
+" />
       </Head>
       <NavBar
       />
-    </><><div>
+    </>
+    <div>
       <div className="relative">
         <div
           className="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat">
@@ -87,26 +81,14 @@ export default function Home() {
               I'm Varun Gupta, a Software Engineer
             </h4>
             <p className="pt-6 font-body leading-relaxed text-grey-20">
-              As a Java Software Engineer with experience in desktop and web application development, I bring strong technical skills in Java, Java API's, MySQL, and database connectivity. With a solid foundation in data structures and algorithms, I also possess front-end expertise in HTML, SCSS, JavaScript, React, TypeScript, and Next.js, as well as API integration experience.
+              As an SDE-I at Primathon, I work on the UI development of web applications using Next.js, SCSS, TypeScript, and Tailwind. I have contributed to the UI of the ApnaAscend Placement Program and the UI revamp of MolyGraph Lubricants, creating responsive and SEO-friendly components and pages.
             </p>
             <p className="pt-6 font-body leading-relaxed text-grey-20">
-              During my time as a Java Software Engineer Intern at Digital Next Software Solutions, I gained valuable industry experience and developed my skills in Java application development. In my current role as an SDE-I at Primathon, I continue to expand my knowledge and skills in frontend development.
-            </p>
-            <p className="pt-6 font-body leading-relaxed text-grey-20">
-              In my previous projects, I have developed a desktop demo application for a banking system and a student management system.
-            </p>
-            <p className="pt-6 font-body leading-relaxed text-grey-20">
-              As a Software Developer- 1 at Primathon, I have contributed to the UI development of the ApnaAscend Placement Program and the UI revamp of MolyGraph Lubricants using Next.js, SCSS, TypeScript, and Tailwind.
-            </p>
-            <p className="pt-6 font-body leading-relaxed text-grey-20">
-              In terms of certifications and achievements, I hold a Java Core Certification and an HTML and CSS Certificate from CutShort. I have also earned a 4-star rating on Codechef and ranked 97/10,000 in Codechef Long Challenge. Furthermore, I have completed certifications in Data Structures and Algorithms from Coding Blocks and SQL (Basic) from Hacker Rank. I have also participated in Hackathon 4.0 organized by the Rajasthan Govt and was a member of the Placement Cell Committee.
-            </p>
-            <p className="pt-6 font-body leading-relaxed text-grey-20">
-              I am passionate about continuous learning and enjoy solving challenging problems. I am seeking opportunities to grow my skills and make meaningful contributions to a dynamic organization.
+              I have a strong technical background in Java, Java APIs, MySQL, and database connectivity, as well as front-end skills in HTML, SCSS, JavaScript, React, and TypeScript. I have also completed multiple projects in desktop and web application development, such as a banking system and a student management system. Additionally, I have earned certifications and achievements in Java, HTML, CSS, SQL, Data Structures, Algorithms, and Codechef. I am passionate about continuous learning and problem-solving, and I am looking for opportunities to grow my skills and make meaningful contributions to a dynamic organization.
             </p>
             <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
               <div className="flex items-center justify-center sm:justify-start">
-                
+
                 <div className="hidden sm:block">
                   <i className="bx bx-chevron-right text-2xl text-primary"></i>
                 </div>
@@ -271,10 +253,10 @@ export default function Home() {
           <div className="group rounded px-8 py-12 shadow hover:bg-primary">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
-                <img src="/assets1/seo.png" alt="Email Marketing icon" />
+                <img src="/assets1/seo1.svg" alt="Email Marketing icon" />
               </div>
               <div className="block group-hover:hidden">
-                <img src="/assets1/seo.png" alt="Email Marketing icon" />
+                <img src="/assets1/seo.svg" alt="Email Marketing icon" />
               </div>
             </div>
             <div className="text-center">
@@ -524,26 +506,29 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div><div className="bg-primary">
-          <div className="container flex flex-col justify-between py-6 sm:flex-row">
-            <p className="text-center font-body text-white md:text-left">
-              © Copyright 2022. All right reserved, Varun Gupta.
-            </p>
-            <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-              <a href="https://www.linkedin.com/in/varun-gupta-98742517b/" className="pl-4">
-                <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-              </a>
-              <a href="https://github.com/varungupta2000" className="pl-4">
-                <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
-              </a>
-              <a href="/" className="pl-4">
-                <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
-              </a>
-            </div>
-          </div>
-        </div></></>
-  )
-}
+    </div>
+    <div className="bg-primary">
+      <div className="container flex flex-col justify-between py-6 sm:flex-row">
+        <p className="text-center font-body text-white md:text-left">
+          © Copyright 2022. All right reserved, Varun Gupta.
+        </p>
+        <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
+          <a href="https://www.linkedin.com/in/varun-gupta-98742517b/" className="pl-4">
+            <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
+          </a>
+          <a href="https://github.com/varungupta2000" className="pl-4">
+            <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
+          </a>
+          <a href="/" className="pl-4">
+            <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </>
+)
+
+export default Home;
 
 export async function getServerSideProps() {
   const client = createClient({
