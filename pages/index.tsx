@@ -37,7 +37,7 @@ const Home = () => (
 
         <div className="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
           <div className="flex flex-col items-center justify-center lg:flex-row">
-            <div className="rounded-full border-8 border-primary shadow-xl">
+            <div className="rounded-full border-8 border-sky-700 shadow-xl">
               <img
                 src="/assets1/varun.jpg"
                 className="h-48 rounded-full sm:h-56"
@@ -74,7 +74,7 @@ const Home = () => (
       <div className="bg-grey-50" id="about">
         <div className="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
           <div className="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
-            <h2 className="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+            <h2 className="font-header text-4xl font-semibold uppercase text-sky-700 sm:text-5xl lg:text-6xl">
               Who am I?
             </h2>
             <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
@@ -90,19 +90,19 @@ const Home = () => (
               <div className="flex items-center justify-center sm:justify-start">
 
                 <div className="hidden sm:block">
-                  <i className="bx bx-chevron-right text-2xl text-primary"></i>
+                  <i className="bx bx-chevron-right text-2xl text-sky-700"></i>
                 </div>
               </div>
               <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
 
                 <a href="https://www.linkedin.com/in/varun-gupta-98742517b/" className="pl-4">
-                  <i className="bx bxl-linkedin text-2xl text-primary hover:text-yellow"></i>
+                  <i className="bx bxl-linkedin text-2xl text-sky-700 hover:text-yellow"></i>
                 </a>
                 <a href="https://github.com/varungupta2000" className="pl-4">
-                  <i className="bx bxl-github text-2xl text-primary hover:text-yellow"></i>
+                  <i className="bx bxl-github text-2xl text-sky-700 hover:text-yellow"></i>
                 </a>
                 <a href="/" className="pl-4">
-                  <i className="bx bxl-twitter text-2xl text-primary hover:text-yellow"></i>
+                  <i className="bx bxl-twitter text-2xl text-sky-700 hover:text-yellow"></i>
                 </a>
 
               </div>
@@ -112,49 +112,50 @@ const Home = () => (
             <div>
               <div className="flex items-end justify-between">
                 <h4 className="font-body font-semibold uppercase text-black">
-                  HTML & CSS
+                  HTML & SCSS
                 </h4>
-                <h3 className="font-body text-3xl font-bold text-primary">95%</h3>
+                <h3 className="font-body text-3xl font-bold text-sky-700">95%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-primary" style={{ "width": "95%" }}></div>
+                <div className="h-3 rounded-full bg-sky-700" style={{ "width": "95%" }}></div>
               </div>
             </div>
             <div className="pt-6">
               <div className="flex items-end justify-between">
                 <h4 className="font-body font-semibold uppercase text-black">Git
                 </h4>
-                <h3 className="font-body text-3xl font-bold text-primary">85%</h3>
+                <h3 className="font-body text-3xl font-bold text-sky-700">95%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-primary" style={{ "width": "85%" }}></div>
+                <div className="h-3 rounded-full bg-sky-700" style={{ "width": "95%" }}></div>
               </div>
             </div>
             <div className="pt-6">
               <div className="flex items-end justify-between">
-                <h4 className="font-body font-semibold uppercase text-black">SCSS</h4>
-                <h3 className="font-body text-3xl font-bold text-primary">95%</h3>
+                <h4 className="font-body font-semibold uppercase text-black">REACT</h4>
+                <h3 className="font-body text-3xl font-bold text-sky-700">90%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-primary" style={{ "width": "95%" }}></div>
+                <div className="h-3 rounded-full bg-sky-700" style={{ "width": "90%" }}></div>
+              </div>
+            </div>
+            <div className="pt-6">
+              <div className="flex items-end justify-between">
+                <h4 className="font-body font-semibold uppercase text-black">Next.js
+                </h4>
+                <h3 className="font-body text-3xl font-bold text-sky-700">85%</h3>
+              </div>
+              <div className="mt-2 h-3 w-full rounded-full bg-lila">
+                <div className="h-3 rounded-full bg-sky-700" style={{ "width": "85%" }}></div>
               </div>
             </div>
             <div className="pt-6">
               <div className="flex items-end justify-between">
                 <h4 className="font-body font-semibold uppercase text-black">TypeScript</h4>
-                <h3 className="font-body text-3xl font-bold text-primary">75%</h3>
+                <h3 className="font-body text-3xl font-bold text-sky-700">85%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-primary" style={{ "width": "75%" }}></div>
-              </div>
-            </div>
-            <div className="pt-6">
-              <div className="flex items-end justify-between">
-                <h4 className="font-body font-semibold uppercase text-black">Java</h4>
-                <h3 className="font-body text-3xl font-bold text-primary">60%</h3>
-              </div>
-              <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-primary" style={{ "width": "60%" }}></div>
+                <div className="h-3 rounded-full bg-sky-700" style={{ "width": "85%" }}></div>
               </div>
             </div>
             <div className="pt-6">
@@ -162,19 +163,19 @@ const Home = () => (
                 <h4 className="font-body font-semibold uppercase text-black">
                   Javascript
                 </h4>
-                <h3 className="font-body text-3xl font-bold text-primary">80%</h3>
+                <h3 className="font-body text-3xl font-bold text-sky-700">90%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-primary" style={{ "width": "80%" }}></div>
+                <div className="h-3 rounded-full bg-sky-700" style={{ "width": "90%" }}></div>
               </div>
             </div>
             <div className="pt-6">
               <div className="flex items-end justify-between">
                 <h4 className="font-body font-semibold uppercase text-black">Figma</h4>
-                <h3 className="font-body text-3xl font-bold text-primary">90%</h3>
+                <h3 className="font-body text-3xl font-bold text-sky-700">90%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-primary" style={{ "width": "90%" }}></div>
+                <div className="h-3 rounded-full bg-sky-700" style={{ "width": "90%" }}></div>
               </div>
             </div>
           </div>
@@ -182,7 +183,7 @@ const Home = () => (
       </div>
 
       <div className="container py-16 md:py-20" id="services">
-        <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+        <h2 className="text-center font-header text-4xl font-semibold uppercase text-sky-700 sm:text-5xl lg:text-6xl">
           Here's what I'm good at
         </h2>
         <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
@@ -190,7 +191,7 @@ const Home = () => (
         </h3>
 
         <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
-          <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+          <div className="group rounded px-8 py-12 shadow hover:bg-sky-700">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
                 <img src="/assets/img/icon-development-white.svg" alt="development icon" />
@@ -200,12 +201,12 @@ const Home = () => (
               </div>
             </div>
             <div className="text-center">
-              <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+              <h3 className="pt-8 text-lg font-semibold uppercase text-sky-700 group-hover:text-yellow lg:text-xl">
                 WEB DEVELOPMENT
               </h3>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+          <div className="group rounded px-8 py-12 shadow hover:bg-sky-700">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
                 <img src="/assets/img/icon-content-white.svg" alt="content marketing icon" />
@@ -215,12 +216,12 @@ const Home = () => (
               </div>
             </div>
             <div className="text-center">
-              <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+              <h3 className="pt-8 text-lg font-semibold uppercase text-sky-700 group-hover:text-yellow lg:text-xl">
                 Technical Writing
               </h3>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+          <div className="group rounded px-8 py-12 shadow hover:bg-sky-700">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
                 <img src="/assets/img/icon-mobile-white.svg" alt="Mobile Application icon" />
@@ -230,12 +231,12 @@ const Home = () => (
               </div>
             </div>
             <div className="text-center">
-              <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+              <h3 className="pt-8 text-lg font-semibold uppercase text-sky-700 group-hover:text-yellow lg:text-xl">
                 Data Structures and Algorithms
               </h3>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+          <div className="group rounded px-8 py-12 shadow hover:bg-sky-700">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
                 <img src="/assets/img/icon-email-white.svg" alt="Email Marketing icon" />
@@ -245,12 +246,12 @@ const Home = () => (
               </div>
             </div>
             <div className="text-center">
-              <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+              <h3 className="pt-8 text-lg font-semibold uppercase text-sky-700 group-hover:text-yellow lg:text-xl">
                 Web Design
               </h3>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+          <div className="group rounded px-8 py-12 shadow hover:bg-sky-700">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
                 <img src="/assets1/seo1.svg" alt="Email Marketing icon" />
@@ -260,7 +261,7 @@ const Home = () => (
               </div>
             </div>
             <div className="text-center">
-              <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+              <h3 className="pt-8 text-lg font-semibold uppercase text-sky-700 group-hover:text-yellow lg:text-xl">
                 SEO of Website
               </h3>
             </div>
@@ -271,7 +272,7 @@ const Home = () => (
       <div className="bg-grey-50" id="clients">
         <div className="container py-16 md:py-20">
           <div className="mx-auto w-full sm:w-3/4 lg:w-full">
-            <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+            <h2 className="text-center font-header text-4xl font-semibold uppercase text-sky-700 sm:text-5xl lg:text-6xl">
               My latest clients
             </h2>
             <div className="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
@@ -296,7 +297,7 @@ const Home = () => (
       </div>
 
       <div className="container py-16 md:py-20" id="work">
-        <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+        <h2 className="text-center font-header text-4xl font-semibold uppercase text-sky-700 sm:text-5xl lg:text-6xl">
           My work experience
         </h2>
         <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
@@ -323,10 +324,10 @@ const Home = () => (
                   className="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
 
                 <div className="mt-1 flex">
-                  <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
+                  <i className="bx bxs-right-arrow hidden text-sky-700 md:block"></i>
                   <div className="md:-mt-1 md:pl-8">
                     <span className="block font-body font-bold text-grey-40">Jul 2022 - Present</span>
-                    <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">SDE-1 Frontend
+                    <span className="block pt-2 font-header text-xl font-bold uppercase text-sky-700">SDE-1 Frontend
                       Developer</span>
                     <ul className="font-body text-black">
                       <li>1. Worked on the UI of ApnaAscend Placement Program using nextJs,SCSS,typeScript,Tailwind</li>
@@ -361,10 +362,10 @@ const Home = () => (
                   className="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
 
                 <div className="mt-1 flex">
-                  <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
+                  <i className="bx bxs-right-arrow hidden text-sky-700 md:block"></i>
                   <div className="md:-mt-1 md:pl-8">
                     <span className="block font-body font-bold text-grey-40">Dec 2021 - May 2022</span>
-                    <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">Software
+                    <span className="block pt-2 font-header text-xl font-bold uppercase text-sky-700">Software
                       Engineer Intern</span>
                     <div className="pt-2">
                       <span className="block font-body text-black">I worked as a Java Software Developer Intern.
@@ -388,7 +389,7 @@ const Home = () => (
                   <img src="/assets/img/icon-project.svg" className="mx-auto h-12 w-auto md:h-20" alt="icon project" />
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
-                  <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
+                  <h1 className="font-body text-2xl font-bold text-sky-700 md:text-4xl">
                     4
                   </h1>
                   <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
@@ -404,7 +405,7 @@ const Home = () => (
                     alt="icon happy clients" />
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
-                  <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
+                  <h1 className="font-body text-2xl font-bold text-sky-700 md:text-4xl">
                     5
                   </h1>
                   <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
@@ -419,7 +420,7 @@ const Home = () => (
                   <img src="/assets/img/icon-puzzle.svg" className="mx-auto h-12 w-auto md:h-20" alt="icon puzzle" />
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
-                  <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
+                  <h1 className="font-body text-2xl font-bold text-sky-700 md:text-4xl">
                     150+
                   </h1>
                   <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
@@ -433,7 +434,7 @@ const Home = () => (
                   <img src="/assets1/code.png" className="mx-auto h-12 w-auto md:h-24" alt="icon puzzle" />
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
-                  <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
+                  <h1 className="font-body text-2xl font-bold text-sky-700 md:text-4xl">
                     150+
                   </h1>
                   <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
@@ -447,11 +448,11 @@ const Home = () => (
       </div>
       <div className='bg-grey-50'>
         <div className="container py-16 md:py-20" id="resume">
-          <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl mb-10">
+          <h2 className="text-center font-header text-4xl font-semibold uppercase text-sky-700 sm:text-5xl lg:text-6xl mb-10">
             Here's my Resume
           </h2>
           <span className='flex items-center justify-center'>
-            <a href="/assets1/resume.pdf" download="Varun Gupta-Resume" className='uppercase bg-primary text-white p-4 rounded-full hover:bg-grey-20 active:bg-slate-900'>
+            <a href="/assets1/resume.pdf" download="Varun Gupta-Resume" className='uppercase bg-sky-700 text-white p-4 rounded-full hover:bg-grey-20 active:bg-slate-900'>
               Download Resume
             </a>
           </span>
@@ -459,7 +460,7 @@ const Home = () => (
       </div>
 
       <div className="container py-16 md:py-20" id="contact" >
-        <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+        <h2 className="text-center font-header text-4xl font-semibold uppercase text-sky-700 sm:text-5xl lg:text-6xl">
           Here's a contact form
         </h2>
         <h4 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
@@ -476,7 +477,7 @@ const Home = () => (
                 My Phone
               </p>
             </div>
-            <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+            <p className="pt-2 text-left font-body font-bold text-sky-700 lg:text-lg">
               (+91) 8860905550
             </p>
           </div>
@@ -488,7 +489,7 @@ const Home = () => (
                 My Email
               </p>
             </div>
-            <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+            <p className="pt-2 text-left font-body font-bold text-sky-700 lg:text-lg">
               varun.gupta9998@gmail.com
             </p>
           </div>
@@ -500,17 +501,17 @@ const Home = () => (
                 My Address
               </p>
             </div>
-            <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+            <p className="pt-2 text-left font-body font-bold text-sky-700 lg:text-lg">
               1/217/1 Ram Bhawan,sadar Bazar. Delhi Cantt,New Delhi-110010
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div className="bg-primary">
+    <div className="bg-sky-700">
       <div className="container flex flex-col justify-between py-6 sm:flex-row">
         <p className="text-center font-body text-white md:text-left">
-          © Copyright 2022. All right reserved, Varun Gupta.
+          © Copyright 2024. All right reserved, Varun Gupta.
         </p>
         <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
           <a href="https://www.linkedin.com/in/varun-gupta-98742517b/" className="pl-4">

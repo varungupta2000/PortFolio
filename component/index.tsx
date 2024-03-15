@@ -2,11 +2,11 @@
 import React from 'react'
 
 const NavBar = () => (
-    <div className="w-full z-50 top-0 py-3 sm:py-5  bg-primary fixed">
+    <div className="w-full z-50 top-0 py-3 sm:py-5  bg-sky-700 fixed">
         <div className="container flex items-center justify-between mx-auto ">
             <div className=' '>
                 <a href="/">
-                    <h2 className='text-white text-2xl font-bold'>
+                <h2 className='text-white text-2xl font-bold font-inter'>
                         VARUN GUPTA
                     </h2>
                 </a>
