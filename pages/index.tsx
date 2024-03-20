@@ -3,10 +3,12 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 
-import Head from 'next/head'
+import Head from 'next/head';
 import { createClient } from "next-sanity";
+import Typing from "react-typing-animation";
+import { TypeAnimation } from 'react-type-animation';
 
-import Script from "next/script"
+import Script from "next/script";
 import NavBar from '../component/index';
 
 const Home = () => (
@@ -26,8 +28,7 @@ const Home = () => (
         <meta name="description" content=".I'm Varun Gupta, specializing in UI development with Next.js, SCSS, TypeScript, and Tailwind. Proficient in HTML, CSS, React, Next.JS, typeScript and more, with hands-on experience in desktop and web app projects. Committed to continuous learning and problem-solving.
 " />
       </Head>
-      <NavBar
-      />
+      <NavBar />
     </>
     <div>
       <div className="relative">
@@ -46,8 +47,28 @@ const Home = () => (
             </div>
             <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
               <h1 className="text-center font-header text-4xl text-white font-black sm:text-left sm:text-5xl md:text-6xl">
-                Hello I'm Varun Gupta
+                <Typing>Hello I'm Varun Gupta</Typing>
               </h1>
+              <div className='text-white mt-[10px] font-medium'>
+                <TypeAnimation
+                  sequence={[
+                    "A Frontend Developer",
+                    1000,
+                    "Full Stack Developer",
+                    1000,
+                    "Frontend wizardry, beyond compare.",
+                    1000,
+                    "From wireframes to pixel-perfect design",
+                    1000,
+                    "Crafting interfaces with precision and flair",
+                    1000,
+                    
+                  ]}
+                  wrapper="span"
+                  speed={20}
+                  repeat={Infinity}
+                />
+              </div>
               <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
                 <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
                   <div className="hidden sm:block">
@@ -390,7 +411,7 @@ const Home = () => (
                 </div>
                 <div className="pt-5 md:pl-5 md:pt-0">
                   <h1 className="font-body text-2xl font-bold text-sky-700 md:text-4xl">
-                    4
+                    5
                   </h1>
                   <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                     Finished Projects
