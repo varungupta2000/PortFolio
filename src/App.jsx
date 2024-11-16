@@ -13,7 +13,6 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />

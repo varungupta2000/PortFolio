@@ -6,7 +6,7 @@ import { styles } from "../style";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { linkedin, email, github } from "../assets";
+import { linkedin, email, cv } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -38,9 +38,9 @@ const Contact = () => {
         'template_g62vv9a',
         {
           from_name: form.name,
-          to_name: "Vivek",
+          to_name: "Varun",
           from_email: form.email,
-          to_email: "vivekkumar024y@gmail.com",
+          to_email: "varun.gupta9998@gmail.com",
           message: form.message,
         },
         'nak7Z0MdoyDRz7j-g'
@@ -136,14 +136,14 @@ const Contact = () => {
           variants={slideIn("right", "tween", 0.2, 1)}
           className="xl:h-[100px] md:h-[50px] sm:h-[20px] flex justify-center items-center pb-[100px] xl:gap-15 md:gap-10 xs:gap-5"
         >
-          <a href="https://www.linkedin.com/in/vivek-kumar-yadav-a377281b6" className="pr-[15px] hover:animate-[tada_1s_ease-in-out]">
+          <a href="https://www.linkedin.com/in/varun-gupta-98742517b/" className="pr-[15px] hover:animate-[tada_1s_ease-in-out]">
             <img className="h-16"  src={linkedin} alt="LinkedIn" />
           </a>
-          <a href="mailto:vivekkumar024y@gmail.com" className="pl-[15px] animate-[fade-in_1s_ease-in-out]">
-            <img className="h-16" src={email} alt="Email" />
+          <a href="mailto:varun.gupta9998@gmail.com" className="pl-[15px] animate-[fade-in_1s_ease-in-out]">
+            <img className="h-16 rounded-full" src={email} alt="Email" />
           </a>
-          <a href="https://www.github.com/V2K4Y" className="pl-[15px] animate-[fade-in_1s_ease-in-out]">
-            <img className="h-20" src={github} alt="Github" />
+          <a href="/src/assets/Varun Gupta Resume.pdf" download="Varun Gupta-Resume" className="pl-[15px] animate-[fade-in_1s_ease-in-out]">
+            <img className="h-16 rounded-full" src={cv} alt="Email" />
           </a>
         </motion.div>
 

@@ -45,9 +45,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I&apos;m a skilled software developer with experience in Javascript and expertise in frameworks like React, Node.js, Express
-        and Three.js. I&apos;m a quick learner and create efficient, scalable, and user-friendly solutions that solve real-world problems.
-        Let&apos;s work together to bring your ideas to life
+      Welcome to my portfolio! I am Varun Gupta, a passionate and self-taught Software Development Engineer with over three years of experience crafting high-performance and scalable web applications. My expertise lies in front-end and back-end development, ensuring seamless user experiences and robust technical solutions.<br/><br/>
+
+Currently, I am contributing at Avataar Skincare Technologies, where I lead development projects that enhance efficiency and optimize user interfaces for web and mobile platforms. Previously, I honed my skills at Primathon Technology Pvt. Ltd., delivering innovative solutions, including real-time modeling APIs and dynamic data visualization tools. <br/><br/>
+
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

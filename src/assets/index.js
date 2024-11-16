@@ -12,25 +12,35 @@ import docker from "./tech/docker.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import native from "./tech/native.png";
 import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
 
-import vidyamantra from "./company/vidyamantra.png"
+import sql from "./tech/sql.png";
+import nest from "./tech/nest.png";
+import next from "./tech/next.png";
+import aws from "./tech/aws.png";
+
+
+import primathon from "./company/primathon.jpeg";
+import avataar from "./company/avataar.jpg";
+import digital from "./company/digital.jpeg";
 
 import carrent from "./ecommerce.png";
 import jobit from "./Live-chat.png";
 import tripguide from "./Final.png";
 
-import linkedin from './linkedin.svg';
-import email from './email.svg';
-import githubl from './github.svg';
+import linkedin from "./linkedin.svg";
+import email from "./email.svg";
+import githubl from "./github.svg";
+import cv from "./cv.jpg";
+
 
 export {
   logo,
+  cv,
   backend,
   creator,
   mobile,
@@ -43,17 +53,22 @@ export {
   git,
   html,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
   redux,
   tailwind,
-  threejs,
   carrent,
+  aws,
   jobit,
   tripguide,
-  vidyamantra,
+  primathon,
   linkedin,
   email,
-  githubl
+  avataar,
+  digital,
+  native,
+  sql,
+  next,
+  nest,
+  githubl,
 };
