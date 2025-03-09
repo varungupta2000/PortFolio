@@ -25,6 +25,7 @@ import aws from "./tech/aws.png";
 
 
 import primathon from "./company/primathon.jpeg";
+import pineLabs from "./company/pineLabs.png";
 import avataar from "./company/avataar.jpg";
 import digital from "./company/digital.jpeg";
 
@@ -45,6 +46,7 @@ export {
   creator,
   mobile,
   web,
+  pineLabs,
   github,
   menu,
   close,
