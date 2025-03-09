@@ -25,7 +25,7 @@ import aws from "./tech/aws.png";
 
 
 import primathon from "./company/primathon.jpeg";
-import pineLabs from "./company/pineLabs.png";
+import pineLabs from "./company/pinelabs.png";
 import avataar from "./company/avataar.jpg";
 import digital from "./company/digital.jpeg";
 
