@@ -22,6 +22,7 @@ import {
   nest,
   sql,
   aws,
+  pineLabs,
 } from "../assets";
 
 export const navLinks = [
@@ -115,11 +116,22 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Pine Labs",
+    icon: pineLabs,
+    iconBg: "#fff",
+    date: "February 2025 - Present",
+    points: [
+      "Developing dahbaord for merchants.",
+      "Developing Recurring Date feature same as outlook recuring feature with better UI/UX.",
+    ],
+  },
+  {
     title: "Frontend Developer",
     company_name: "Avataar Skincare Technologies Pvt. Ltd.",
     icon: avataar,
     iconBg: "#fff",
-    date: "August 2024 - Present",
+    date: "August 2024 - February 2025",
     points: [
       "Led front-end and back-end development for web and mobile platforms, enhancing user experience and performance.",
       "Increased business efficiency by 35% by developing and optimizing website and app interfaces, ensuring seamless and intuitive user interactions.",
