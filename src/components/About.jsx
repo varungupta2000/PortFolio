@@ -6,6 +6,7 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
+// eslint-disable-next-line react/prop-types
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -42,20 +43,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Welcome to my portfolio! I am Varun Gupta, a passionate and self-taught
-        Software Development Engineer with over three years of experience
-        crafting high-performance and scalable web applications. My expertise
-        lies in front-end and back-end development, ensuring seamless user
-        experiences and robust technical solutions.
+        Welcome to my portfolio! I’m Varun Gupta, a self-taught and results-driven Software Development Engineer with over three years of experience building high-performance, scalable web applications. I specialize in front-end development with React and Next.js, complemented by hands-on backend expertise using Java, Spring Boot, and Node.js.
         <br />
         <br />
-        Currently, I am contributing at Avataar Skincare Technologies, where I
-        lead development projects that enhance efficiency and optimize user
-        interfaces for web and mobile platforms. Previously, I honed my skills
-        at Primathon Technology Pvt. Ltd., delivering innovative solutions,
-        including real-time modeling APIs and dynamic data visualization tools.{" "}
+        Currently, I’m part of the engineering team at Pine Labs, where I’ve developed dashboards and configuration tools that streamline payment processes and campaign management. Before this, I led full-stack development at Avataar Skincare Technologies, enhancing web and mobile platforms with performance-optimized interfaces, dynamic booking systems, and CMS-driven content updates. My journey began at Primathon Technology Pvt. Ltd., where I delivered impactful solutions like real-time 2D modeling APIs and interactive data visualization for diverse clients.{" "}
         <br />
         <br />
+        I thrive on creating seamless user experiences and love solving complex technical challenges with clean, efficient code.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
