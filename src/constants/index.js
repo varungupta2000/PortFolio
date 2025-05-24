@@ -23,6 +23,8 @@ import {
   sql,
   aws,
   pineLabs,
+  java,
+  springboot,
 } from "../assets";
 
 export const navLinks = [
@@ -112,6 +114,14 @@ const technologies = [
     name: "Git & Github",
     icon: git,
   },
+  {
+    name:"Java",
+    icon:java,
+  },
+  {
+    name:"springboot",
+    icon:springboot
+  }
 ];
 
 const experiences = [
@@ -122,7 +132,7 @@ const experiences = [
     iconBg: "#fff",
     date: "February 2025 - Present",
     points: [
-     "Developed a dynamic Merchant Dashboard for configuring card-based offers by type, scheme, and geolocation.",
+"Developed a dynamic Merchant Dashboard for configuring card-based offers by type, scheme, and geolocation.",
 "Implemented a Recurring Offers feature for automated campaigns inspired by Microsoft Office recurrence.",
 "Built a Payment Configuration Dashboard for POS management using Java, Springboot, ReactJs."
     ],
