@@ -122,8 +122,9 @@ const experiences = [
     iconBg: "#fff",
     date: "February 2025 - Present",
     points: [
-      "Developing dahbaord for merchants.",
-      "Developing Recurring Date feature same as outlook recuring feature with better UI/UX.",
+     "Developed a dynamic Merchant Dashboard for configuring card-based offers by type, scheme, and geolocation.",
+"Implemented a Recurring Offers feature for automated campaigns inspired by Microsoft Office recurrence.",
+"Built a Payment Configuration Dashboard for POS management using Java, Springboot, ReactJs."
     ],
   },
   {
