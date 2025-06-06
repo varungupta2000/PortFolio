@@ -37,6 +37,10 @@ export const navLinks = [
     title: "Experience",
   },
   {
+    id:"work",
+    title:"Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -201,17 +205,13 @@ const testimonials = [
 
 const projects = [
   {
-    name: "E-commerce Website",
+    name: "Spotify Clone",
     description:
-      "Web-based platform that allows users to see products and buy it by adding it to cart and move to payment section.",
+      "Web-based platform that allows users to listen to songs and make playlist.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
@@ -219,50 +219,30 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/V2K4Y/E-commerce-WebSite",
+    source_code_link: "https://github.com/varungupta2000/spotifyClone",
+    url:"https://varunspotify-clone.netlify.app/",
   },
-  {
-    name: "Live-chat App",
-    description:
-      "Web application that enables users to chat with other users in realtime environment.",
-    tags: [
-      {
-        name: "node, express",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi, mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/V2K4Y/LiveChat---App",
-  },
-  {
-    name: "Data Analysis - (EDA)",
-    description:
-      "Exploratory data analysis on clients data to provide most selling product categories which can help to plan inventory and hence meet the demands.",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Pandas",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Seaborn",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/V2K4Y/PythonDataAnalysis",
-  },
+  // {
+  //   name: "Live-chat App",
+  //   description:
+  //     "Web application that enables users to chat with other users in realtime environment.",
+  //   tags: [
+  //     {
+  //       name: "node, express",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi, mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   source_code_link: "https://github.com/V2K4Y/E-commerce-WebSite",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

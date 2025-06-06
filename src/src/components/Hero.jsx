@@ -1,4 +1,4 @@
-import React from 'react'
+/* eslint-disable react/no-unescaped-entities */
 import { motion } from 'framer-motion'
 
 import { styles } from '../style'
