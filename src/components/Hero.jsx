@@ -21,9 +21,9 @@ const Hero = () => {
             sequence={[
               'I am a React/NextJs Developer',
               1000,
-              'I am a React Native Developer',
+              'I am a Full-stack Developer',
               1000,
-              'I am a NodeJs Developer',
+              'I am a Java Developer',
               1000,
             ]}
             wrapper="span"
@@ -32,8 +32,8 @@ const Hero = () => {
             repeat={Infinity}
           />
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop smart user interfaces and useful
-            <br />interactions, developing rich web and mobile<br />applications and seamless user experiences.
+            I build scalable full-stack applications with modern
+            <br />frontend and backend technologies, turning complex business <br />needs into fast,reliable digital products.
           </p>
         </div>
       </div>
