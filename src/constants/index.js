@@ -128,9 +128,10 @@ const experiences = [
     iconBg: "#fff",
     date: "February 2025 - Present",
     points: [
-"Developed a dynamic Merchant Dashboard for configuring card-based offers by type, scheme, and geolocation.",
-"Implemented a Recurring Offers feature for automated campaigns inspired by Microsoft Office recurrence.",
-"Built a Payment Configuration Dashboard for POS management using Java, Springboot, ReactJs."
+"Built a centralized BIN repository platform using Java, Spring Boot, and PostgreSQL to enable scheme-based transaction processing for Visa, Mastercard, RuPay, and Amex, supporting high-volume, low-latency BIN lookups for systems handling 10+ lakh transactions/day.",
+"Designed and developed a payment configuration dashboard using React.js and Spring Boot, enabling admins to manage transaction rules and POS workflows.",
+"Implemented offer and acquirer automation workflows, reducing manual scheduling effort by 70%.",
+      "Improved delivery speed by 30–35% through AI-assisted development, better engineering workflows, and streamlined CI/CD."
     ],
   },
   {
