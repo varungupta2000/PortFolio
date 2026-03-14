@@ -43,13 +43,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Welcome to my portfolio! I’m Varun Gupta, a self-taught and results-driven Software Development Engineer with over three years of experience building high-performance, scalable web applications. I specialize in front-end development with React and Next.js, complemented by hands-on backend expertise using Java, Spring Boot, and Node.js.
+        Welcome to my portfolio! I’m Varun Gupta, a Full Stack Developer with 3.5+ years of experience building scalable, high-performance web applications and backend services. My core expertise lies in React.js, Next.js, JavaScript, TypeScript, Java, Spring Boot, MySQL, and PostgreSQL, and I enjoy working across the full development lifecycle—from designing intuitive user interfaces to developing robust APIs and backend systems. I am passionate about creating products that are not only technically strong but also practical, user-friendly, and impactful.
         <br />
         <br />
-        Currently, I’m part of the engineering team at Pine Labs, where I’ve developed dashboards and configuration tools that streamline payment processes and campaign management. Before this, I led full-stack development at Avataar Skincare Technologies, enhancing web and mobile platforms with performance-optimized interfaces, dynamic booking systems, and CMS-driven content updates. My journey began at Primathon Technology Pvt. Ltd., where I delivered impactful solutions like real-time 2D modeling APIs and interactive data visualization for diverse clients.{" "}
+        Over the course of my career, I have worked on enterprise and fintech-focused applications where performance, reliability, and maintainability are critical. I have built responsive dashboards, role-based configuration platforms, and automation-driven workflows that improved usability, reduced manual effort, and supported large-scale operations. My work has involved optimizing load times, integrating REST APIs, improving frontend architecture, and contributing to CI/CD pipelines and testing practices to ensure smoother releases and better product stability.        <br />
         <br />
-        <br />
-        I thrive on creating seamless user experiences and love solving complex technical challenges with clean, efficient code.
+        I bring a strong focus on continuous learning, ownership, and delivering measurable outcomes, whether it is improving user experience, accelerating development, or building systems that scale with business needs.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
